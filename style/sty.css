@@ -11,3 +11,6 @@ ul li{
 .text-right{
     text-align: right;
 }
+.bold{
+    font-size: larger;
+}
