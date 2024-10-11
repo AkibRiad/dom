@@ -15,3 +15,19 @@ makeRed.onclick = function(){
 }
 
 
+const makePink =document.getElementById("make-pink");
+makePink.addEventListener('click',function(){
+    document.body.style.backgroundColor='pink'
+})
+
+document.getElementById('tomato').addEventListener('click',function(){
+    document.body.style.backgroundColor='tomato'
+})
+document.getElementById('golden').addEventListener('click',function(){
+    document.body.style.backgroundColor='goldenrod'
+})
+
+
+
+
+
