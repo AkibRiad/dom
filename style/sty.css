@@ -4,3 +4,10 @@ h1{
 ul li{
     color: blue;
 }
+.yellow-bg{
+    background-color: yellow;
+}
+
+.text-right{
+    text-align: right;
+}

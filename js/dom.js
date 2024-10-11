@@ -1,14 +1,23 @@
-console.log("Start DOM");
- 
+const set = document.querySelectorAll("section");
 
 
- let li =document.getElementsByTagName("li");
- for(l of li){
-   //  console.log(l)
- }
+// console.log(set)
+for(const se of set){
+   // console.log(se);
+   se.style.border ='2px solid black'
+   se.style.marginTop= '5px'
+   se.style.padding= '10px'
+   se.style.borderRadius= '10px'
+}
 
- const change = document.getElementById("ab");
+const sett = document.getElementsByClassName("adding");
 
- change.innerText = 'My Favourite Fruits'
+// console.log(sett.classList);
+sett.classList.add('yellow-bg');
 
- change.setAttribute = ('title','It is JS')
+
+const addedClass = document.getElementById('abc');
+
+console.log(addedClass);
+
+// addedClass.classList.add('text-right')
