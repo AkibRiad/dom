@@ -8,8 +8,8 @@ document.getElementById('update').addEventListener('click',function(){
     const newtext = document.getElementById("updateText");
     const nneeww= newtext.value;
 
-    document.getElementById('newText').innerText=nneeww;
-    newtext.value= '';
+    // document.getElementById('newText').innerText=nneeww;
+    // newtext.value= '';
     
 
 
