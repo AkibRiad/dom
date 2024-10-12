@@ -55,12 +55,23 @@ section2.innerHTML=`
 
         document.getElementById('text').innerText=valueOne;
         inputValue.value='';
+         })
 
 
+        document.getElementById('clicked').addEventListener('click',function(){
+            const takingComment = document.getElementById('comment');
+            
+            const valueTwo= takingComment.value;
 
 
+            const com = document.getElementById('myComment');
 
+            const p = document.createElement('p');
+            p.innerText= valueTwo;
+            com.appendChild(p)
+            takingComment.value='';
 
+        })
 
-       })
+     
        
